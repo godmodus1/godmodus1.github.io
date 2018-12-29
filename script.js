@@ -5,7 +5,7 @@ $(document).ready(function() {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "godmodus1.github.io/mail.php", //Change
+			url: "https://godmodus1.github.io/mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
 			alert("Thank you!");
